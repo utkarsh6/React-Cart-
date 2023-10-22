@@ -1,0 +1,45 @@
+.home{
+    display:flex ;
+
+}
+
+.Container{
+display: flex;
+width: 77%;
+padding: 28px;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+.filters{
+    padding:20px;
+    background-color: blanchedalmond;
+    color:brown;
+    flex-direction: column;
+    margin: 10px;
+    width:20%;
+    height:86vh;
+}
+.filters> span{
+    padding-bottom: 19px;
+}
+.shoppingitem{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+
+    
+}
+.cartimg{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+}
+.cartdetail{
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+}
